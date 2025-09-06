@@ -11,7 +11,8 @@ const ProfileInfoCard = () => {
     clearUser();
     navigate("/");
   }
-  return (
+  return  (
+  user && (
     <div className='flex items-center'>
      <img src={user.profileImageUrl}
      alt=''
@@ -24,6 +25,7 @@ const ProfileInfoCard = () => {
      </div>
     </div>
   )
+)
 }
 
 export default ProfileInfoCard

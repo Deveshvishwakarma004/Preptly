@@ -15,7 +15,7 @@ const App = () => {
           {/* {Default Routes} */}
           <Route path="/" element={<LandingPage/>} />
           <Route path='/dashboard' element={<Dashboard/>} />
-          <Route path='/interview-prep:/sessionid' element={<InterviewPrep/>} />
+         <Route path='/interview-prep/:sessionId' element={<InterviewPrep/>} />
         </Routes>
       </Router>
 

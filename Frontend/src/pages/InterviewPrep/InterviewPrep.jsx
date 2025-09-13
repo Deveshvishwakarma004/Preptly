@@ -159,7 +159,7 @@ const InterviewPrep = () => {
             )}
             {isLoading && <SkeletonLoader/>}
             {!isLoading && explaination && (
-              <AIResponsePreview content={explaination?.explaination} />
+              <AIResponsePreview content={explaination?.explanation} />
             )}
           </Drawer>
         </div>

@@ -41,32 +41,33 @@ Preptly aims to make interview prep more personalized, efficient, and effective.
 
 
 ---
-## ⚙️ Installation Guide
+```
+ ⚙️ Installation Guide
 
-### 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/Deveshvishwakarma004/Preptly.git
 cd Preptly
 
-### 2. Install backend dependencies
+2. Install backend dependencies
 cd Backend
 npm install
 
-### 3. Install frontend dependencies
+3. Install frontend dependencies
 cd ../Frontend
 npm install
 
-### 4. Set up environment variables
-#### Create a `.env` file in both Backend and Frontend (if needed) with keys like:
-####  - BACKEND_PORT
-####   - DB_URI
-####  - AI_API_KEY
-####  - FRONTEND_URL
-####  - etc.
+4. Set up environment variables
+ Create a `.env` file in both Backend and Frontend (if needed) with keys like:
+   - BACKEND_PORT
+   - DB_URI
+   - AI_API_KEY
+   - FRONTEND_URL
+   - etc.
 
-### 5. Run the backend (in one terminal)
+5. Run the backend (in one terminal)
 cd ../Backend
 npm run dev
 
-### 6. Run the frontend (in another terminal)
+6. Run the frontend (in another terminal)
 cd ../Frontend
 npm start

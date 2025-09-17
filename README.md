@@ -41,7 +41,7 @@ Preptly aims to make interview prep more personalized, efficient, and effective.
 
 
 ---
-
+```bash
 ## ⚙️ Installation Guide
 
 ### 1. Clone the repository
